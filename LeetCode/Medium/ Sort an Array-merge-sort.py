@@ -3,7 +3,7 @@
 
 
 class Solution:
-    def sortArray(self, nums: List[int]) -> List[int]:        
+    def sortArray(self, nums):        
         if len(nums)<2:
             return nums
         mid = len(nums)//2
